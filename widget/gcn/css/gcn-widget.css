@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.thumb {
+    margin-bottom: 5px;
+}
+
+.thumbnail {
+    
+    border: none;
+    padding: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin-top: 0px;
+    border-bottom-width: 0px;    
+	 position:relative;
+    opacity:1;
+}
+
+.thumbnail:hover {
+
+    opacity:.8;
+}
+
+.thumbnail:active {
+    opacity:.9;
+    border-bottom-width: 4px;
+}
+
+.gamecloudlabel{
+    margin-top:0px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+a.gamecloudlabel:link,a:visited {
+    color: #333;
+    padding: 0px 0px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.gamecloudlabel:active {
+    padding: 0px 10px;
+    color: #35d3fb;
+}
+
+a.gamecloudlabel:hover {
+    padding: 0px 5px;
+    color: #666666;
+}
+
+.caption {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.row-no-padding {
+  margin-left: 0 !important;;
+  margin-right: 0 !important;;
+
+ }
+
+.col-no-padding {
+ 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  
+}
+
+.captionfont{font-size: .8em !important;}
+
+p {margin-top: 0 !important;}
+
+/* Portrait tablets and small desktops */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    p {font-size: 16px; margin-bottom: 0 !important; margin-top: 0 !important;}
+   
+	
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+    p {font-size: 14px; margin-bottom: 0 !important; margin-top: 0 !important;}
+
+}
+
+/* Landscape phones and smaller */
+@media screen and (max-width: 580px) {
+    p {font-size: 12px; margin-bottom: 0 !important; margin-top: 0 !important;}
+
+  
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+
+
